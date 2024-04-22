@@ -22,6 +22,7 @@ fieldside = 1 # 0 is left, 1 is right                     ##
 
 if __name__ == '__main__':
     # Start timer
+    print("HI")
     start = time.time()
     # Get image
     path = "images/" + imname + ".jpg"
