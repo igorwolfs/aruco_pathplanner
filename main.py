@@ -73,6 +73,7 @@ if __name__ == '__main__':
             step += 1
             # Update fieldimage
             fieldimg = testframe.show_path_data(borders, zones, blocks_new)
+            # change
         else:
             # A* 
             border_start = [xy_path[-1][0], xy_path[-1][1], 0, 0, 0]
